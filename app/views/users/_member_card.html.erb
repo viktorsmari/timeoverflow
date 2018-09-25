@@ -15,7 +15,7 @@
   </div>
   <div class="to-member-card__body">
     <div class="to-member-card__body__description">
-      <%= member.description %>
+      <%= member.description&.truncate(124) %>
     </div>
     <div class="to-member-card__body__items">
       <div class="to-member-card__body__item">
